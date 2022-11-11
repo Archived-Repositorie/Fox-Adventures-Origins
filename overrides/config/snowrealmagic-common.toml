@@ -1,0 +1,17 @@
+placeSnowInBlock = true
+snowGravity = true
+snowAlwaysReplaceable = true
+snowAccumulationDuringSnowstorm = true
+snowAccumulationDuringSnowfall = true
+snowAccumulationMaxLayers = 8
+thinnerBoundingBox = true
+snowMakingIce = true
+snowOnIce = true
+snowNeverMelt = false
+snowMeltsInWarmBiomes = false
+snowNaturalMelt = true
+snowReduceFallDamage = true
+replaceWorldFeature = true
+sustainGrassIfLayerMoreThanOne = false
+retainOriginalBlocks = false
+sneakSnowball = false

@@ -1,0 +1,14 @@
+{
+	// Priority 1: Sets the difficulty in any world to peaceful when enabled.
+	"forcePeaceful": false,
+	// Priority 2: Sets the difficulty in any world to easy when enabled.
+	"forceEasy": false,
+	// Priority 3: Sets the difficulty in any world to normal when enabled.
+	"forceNormal": false,
+	// Priority 4: Sets the difficulty in any world to hard when enabled.
+	"forceHard": true,
+	// When enabled, locks the difficulty in any world so it cannot be changed.
+	"shouldLockDifficulty": true,
+	// When enabled, also sets the difficulty in worlds where it has already been locked.
+	"shouldChangeDifficultyWhenAlreadyLocked": false
+}
