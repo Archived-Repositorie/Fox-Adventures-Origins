@@ -55,3 +55,13 @@ Modpack created for adventure,exploration and fun! Creation based on idea of Adv
 ![Better Stronghold](https://imgur.com/ejJNSE0.png)
 ![Maple forest](https://imgur.com/a2NQfGg.png)
 ![Snowy biome](https://imgur.com/9adkjyF.png)
+
+<center>
+
+![Installation](https://i.imgur.com/NhOkMyG.png)
+
+</center>
+
+https://user-images.githubusercontent.com/73485099/201482007-6924f702-df29-470e-a725-164908473911.mp4
+
+
