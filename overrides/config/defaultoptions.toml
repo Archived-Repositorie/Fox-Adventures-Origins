@@ -1,2 +1,2 @@
-defaultDifficulty = "HARD"
-lockDifficulty = true
+defaultDifficulty = "NORMAL"
+lockDifficulty = false

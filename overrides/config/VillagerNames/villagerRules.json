@@ -6,7 +6,7 @@
   "nitwitText": "Nitwit",
   "villagerTextFormatting": "WHITE",
   "childNames": false,
-  "turnOffVillagerConsoleSpam": true,
+  "turnOffVillagerConsoleSpam": false,
   "wanderingTraderNames": true,
   "wanderingTraderText": "Wandering Trader",
   "surNames": true,

@@ -4,7 +4,7 @@
 	// Applies if bonus chest world setting is enabled
 	"startPoints": 5,
 	// Enables starter points for SERVER only
-	"enableStartPoints": true,
+	"enableStartPoints": false,
 	"pointsPerLevel": 1,
 	// If true will reset stats on death
 	"hardMode": false,

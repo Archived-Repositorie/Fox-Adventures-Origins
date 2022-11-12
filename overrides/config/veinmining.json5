@@ -5,9 +5,9 @@
 		// The number of levels of the enchantment
 		"levels": 1,
 		// Whether or not to consider this enchantment as a treasure
-		"isTreasure": true,
+		"isTreasure": false,
 		// Whether or not this enchantment can be randomly selected for enchanting
-		"isRandomlySelectable": false,
+		"isRandomlySelectable": true,
 		// Whether or not this enchantment is available on books
 		"isAvailableOnBooks": true,
 		// The minimum enchanting power requirement for the first enchantment level

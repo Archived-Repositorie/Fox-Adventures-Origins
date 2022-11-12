@@ -4,7 +4,7 @@
 	// Permission level to use the /backup command
 	"command_permission_level": 3,
 	// Only send backup status to server ops
-	"notify_op_only": false,
+	"notify_op_only": true,
 	// Don't send backup status at all
 	"do_not_notify": false,
 	// Maximum number of backups to keep

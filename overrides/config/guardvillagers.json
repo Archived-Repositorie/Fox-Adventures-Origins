@@ -15,7 +15,7 @@
     "GuardAlwaysShield": true,
     "FriendlyFire": false,
     "guardArrowsHurtVillagers": false,
-    "RaidAnimals": true,
+    "RaidAnimals": false,
     "WitchesVillager": true,
     "BlackSmithHealing": true,
     "GuardVillagerHelpRange": 50.0,

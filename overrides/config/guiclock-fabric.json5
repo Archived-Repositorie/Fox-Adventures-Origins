@@ -1,6 +1,6 @@
 {
 	// When enabled, will only show the game time when a clock is present in the inventory.
-	"mustHaveClockInInventoryForGameTime": false,
+	"mustHaveClockInInventoryForGameTime": true,
 	// When enabled, will only show the real time when a clock is present in the inventory.
 	"mustHaveClockInInventoryForRealTime": true,
 	// Whether the clock in the GUI should be lowered when the player has potion effects to prevent overlap.

@@ -1,5 +1,5 @@
 {
   "daylength": 24000,
-  "yearLengthInDays": 360,
-  "minDaysBetweenLunarEvents": 2
+  "yearLengthInDays": 100,
+  "minDaysBetweenLunarEvents": 5
 }

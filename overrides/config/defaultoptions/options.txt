@@ -21,10 +21,10 @@ toggleSprint:false
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.5
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.99
+gamma:0.5
 renderDistance:12
 simulationDistance:6
 entityDistanceScaling:1.0
