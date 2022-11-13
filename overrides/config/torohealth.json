@@ -7,9 +7,9 @@
     "scale": 1.0,
     "hideDelay": 20,
     "anchorPoint": "TOP_RIGHT",
-    "showEntity": true,
+    "showEntity": false,
     "showBar": false,
-    "showSkin": true,
+    "showSkin": false,
     "onlyWhenHurt": false
   },
   "bar": {
