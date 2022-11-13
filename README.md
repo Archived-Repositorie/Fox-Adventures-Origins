@@ -2,10 +2,6 @@
 
 ![Fox Adventures: Origins](https://imgur.com/b6fZVfW.png)
 
-</center>
-
-<center>
-
 Modpack created for adventure,exploration and fun! Creation based on idea of Adventures Of Fox modpack. Contains new recipes, new biomes, new mobs, quests and a lot more! This project is rolling release like it was with previous version, basically it will have many many updates breaking or not and also starts out as just modpack without configs anything big, but every feature will be added through updates.
 
 </center>
