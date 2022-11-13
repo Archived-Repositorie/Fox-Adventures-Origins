@@ -1,7 +1,0 @@
-ype = last_world
-
-last_world {
-  is_server = false
-  world = /home/cutie/.config/gdlauncher_next/instances/foxadventure/saves/New World (1)
-}
-

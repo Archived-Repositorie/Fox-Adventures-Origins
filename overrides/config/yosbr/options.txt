@@ -1,4 +1,4 @@
-version:2975
+version:3120
 autoJump:false
 snooperEnabled:false
 darkMojangStudiosBackground:true
@@ -6,10 +6,11 @@ simulationDistance:6
 guiScale:3
 maxFps:260
 resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Mod Menu Helper.zip","midnightcontrols/bedrock"]
-incompatibleResourcePacks:["midnightcontrols/bedrock"]
+incompatibleResourcePacks:[]
 tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
+chatPreview:false
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.gui:key.keyboard.unknown
