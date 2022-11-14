@@ -1,0 +1,9 @@
+{
+    "enable": true,
+    "punishment": {
+      "type": "command"
+    },
+    "lives": 1,
+    "cancel": false,
+    "forcedrop":false
+  }
