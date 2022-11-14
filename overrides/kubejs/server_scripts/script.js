@@ -9,8 +9,8 @@ onEvent("player.logged_in", event => {
 	if(event.player.stages.has("welcome")) return;
 	event.player.stages.add("welcome")
 	let messages = [
-		Component.gold("Welcome to our modpack!").bold(true),
-		Component.gold("Before starting your journey, check out quest book!").bold(true)
+		Component.gold("Welcome to our modpack!"),
+		Component.gold("Before starting your journey, check out quest book!")
 	];
 	
 	messages.forEach(event.player.tell)
