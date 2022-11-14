@@ -1,9 +1,10 @@
 {
     "enable": true,
     "punishment": {
-      "type": "command"
+      "type": "command",
+      "command":"function kubejs:death"
     },
     "lives": 1,
     "cancel": false,
-    "forcedrop":false
+    "forcedrop":true
   }

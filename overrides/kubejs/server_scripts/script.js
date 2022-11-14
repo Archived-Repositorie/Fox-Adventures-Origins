@@ -5,16 +5,15 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-console.info('Hello, World! (You will see this line every time server resources reload)')
+onEvent("player.logged_in", event => {
+	if(event.player.stages.has("welcome")) return;
+	event.player.stages.add("welcome")
+	let messages = [
+		Component.gold("Welcome to our modpack!").bold(true),
+		Component.gold("Before starting your journey, check out quest book!").bold(true)
+	];
+	
+	messages.forEach(event.player.tell)
 
-onEvent('recipes', event => {
-	// Change recipes here
-})
-
-onEvent('item.tags', event => {
-	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
-	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
-
-	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
-	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	event.player.give('minecraft:apple')
 })
