@@ -1,10 +1,13 @@
 {
-    "enable": true,
-    "punishment": {
-      "type": "command",
-      "command":"function kubejs:death"
-    },
-    "lives": 1,
-    "cancel": false,
-    "forcedrop":true
-  }
+  "enable": true,
+  "punishment": {
+    "type": "random",
+    "max": 7500,
+    "spreadDistance": 5000,
+    "setspawnpoint": true,
+    "afterdeath": true
+  },
+  "lives": 1,
+  "cancel": false,
+  "forcedrop": true
+}
