@@ -6,14 +6,11 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 onEvent("player.logged_in", event => {
-	if(event.player.stages.has("welcome")) return;
+	if (event.player.stages.has("welcome")) return;
 	event.player.stages.add("welcome")
-	let messages = [
-		Component.gold("Welcome to our modpack!"),
-		Component.gold("Before starting your journey, check out quest book!")
-	];
-	
-	messages.forEach(event.player.tell)
+
+	event.player.tell(Component.gold("Welcome to our modpack!"))
+	event.player.tell(Component.gold("Before starting your journey, check out quest book!"))
 
 	event.player.give('minecraft:apple')
 })
