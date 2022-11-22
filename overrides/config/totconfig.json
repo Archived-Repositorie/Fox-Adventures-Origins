@@ -1,9 +1,0 @@
-{
-  "chance": 0,
-  "prizes": [
-    "tellraw @s {\"text\":\"Mod is disabled!\"}"
-  ],
-  "blocklist": [
-    "minecraft:arrow"
-  ]
-}

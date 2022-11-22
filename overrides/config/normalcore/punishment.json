@@ -1,7 +1,7 @@
 {
   "enable": true,
   "punishment": {
-    "type": "random",
+    "type": "normalcore:random",
     "max": 7500,
     "spreadDistance": 5000,
     "setspawnpoint": true,
