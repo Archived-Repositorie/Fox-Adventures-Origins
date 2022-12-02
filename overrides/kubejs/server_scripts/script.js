@@ -30,5 +30,21 @@ onEvent('recipes', event => {
 
 	event.shapeless('kubejs:handle', ['minecraft:stick', 'minecraft:leather', 'minecraft:string'])
 
-	event.replaceInput([{mod:'medievalweapons'},{output:'#mambience:is_tool'},{output:'#mambience:is_sword'},{output:'#c:swords'},{output:'#bookshelf:swords'},{output:'#c:pickaxes'},{output:'#c:axes'},{output:'#c:shovels'},{output:'#c:hoes'}], 'minecraft:stick', 'kubejs:handle')
+	event.replaceInput([{ mod: 'medievalweapons' }, { output: '#mambience:is_tool' }, { output: '#mambience:is_sword' }, { output: '#c:swords' }, { output: '#bookshelf:swords' }, { output: '#c:pickaxes' }, { output: '#c:axes' }, { output: '#c:shovels' }, { output: '#c:hoes' }, { output: '#c:bows' }], 'minecraft:stick', 'kubejs:handle')
+})
+
+onEvent('tags.items', event => {
+	event.add('c:swords', /.*sword.*/)
+	event.add('c:pickaxes', /.*pickaxe.*/)
+	event.add('c:axes', /.*axe.*/)
+	event.add('c:shovels', /.*shovel.*/)
+	event.add('c:hoes', /.*hoe.*/)
+
+	event.add('mambience:is_tool', '#c:pickaxes')
+	event.add('mambience:is_tool', '#c:axes')
+	event.add('mambience:is_tool', '#c:shovels')
+	event.add('mambience:is_tool', '#c:hoes')
+
+	event.add('mambience:is_sword', '#c:swords')
+	event.add('mambience:is_bow', '#c:bows')
 })

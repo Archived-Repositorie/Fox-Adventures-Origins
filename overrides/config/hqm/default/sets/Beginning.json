@@ -1,0 +1,38 @@
+{
+  "name": "Beginning",
+  "quests": [
+    {
+      "uuid": "e7cbd244-01f6-4f8a-a07a-23b0d2b3316a",
+      "name": {
+        "text": "Welcome!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Welcome to our modpack! This quest will start your journey",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 74,
+      "icon": {
+        "id": "inmis:baby_backpack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX"
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "inmis:baby_backpack",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

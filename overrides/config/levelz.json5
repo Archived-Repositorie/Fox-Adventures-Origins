@@ -1,6 +1,6 @@
 {
 	// Maximum level per skills
-	"maxLevel": 20,
+	"maxLevel": 30,
 	// Applies if bonus chest world setting is enabled
 	"startPoints": 5,
 	// Enables starter points for SERVER only
