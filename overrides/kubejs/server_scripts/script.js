@@ -30,5 +30,5 @@ onEvent('recipes', event => {
 
 	event.shapeless('kubejs:handle', ['minecraft:stick', 'minecraft:leather', 'minecraft:string'])
 
-	event.replaceInput([{mod:'medievalweapons'},{output:'#mambience:is_tool'},{output:'#mambience:is_sword'}], 'minecraft:stick', 'kubejs:handle')
+	event.replaceInput([{mod:'medievalweapons'},{output:'#mambience:is_tool'},{output:'#mambience:is_sword'},{output:'#c:swords'},{output:'#bookshelf:swords'},{output:'#c:pickaxes'},{output:'#c:axes'},{output:'#c:shovels'},{output:'#c:hoes'}], 'minecraft:stick', 'kubejs:handle')
 })
