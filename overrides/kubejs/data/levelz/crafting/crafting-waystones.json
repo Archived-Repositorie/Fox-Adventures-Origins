@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "level": 10,
+  "skill": "alchemy",
+  "item": [
+    "waystones:stone_brick_waystone",
+    "waystones:red_desert_waystone",
+    "waystones:red_nether_brick_waystone",
+    "waystones:end_stone_brick_waystone",
+    "waystones:nether_brick_waystone",
+    "waystones:blackstone_brick_waystone",
+    "waystones:deepslate_brick_waystone",
+    "waystones:desert_waystone",
+    "waystones:waystone"
+  ]
+}

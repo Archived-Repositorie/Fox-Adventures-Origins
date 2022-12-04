@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "blacklist": [
+    "minecraft:overworld"
+  ]
+}
