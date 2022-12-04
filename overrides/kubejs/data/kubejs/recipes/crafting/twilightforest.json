@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#LD",
+        "ITI",
+        "DL#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:water_bucket"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "I": {
+            "item": "minecraft:dark_prismarine"
+        },
+        "T": {
+            "item": "dimtotem:dimensional_totem",
+            "data": {
+                "dimension":"minecraft:overworld"
+            }
+        }
+    },
+    "result": {
+        "item": "dimtotem:dimensional_totem",
+        "data": {
+            "dimension": "twilightforest:twilight_forest"
+        }
+    }
+}

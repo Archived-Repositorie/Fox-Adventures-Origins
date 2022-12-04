@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#LC",
+        "STS",
+        "CL#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "L": {
+            "item": "twilightforest:naga_scale"
+        },
+        "C": {
+            "item": "twilightforest:block_and_chain"
+        },
+        "S": {
+            "item": "twilightforest:magic_beans"
+        },
+        "T": {
+            "item": "dimtotem:dimensional_totem",
+            "data": {
+                "dimension": "twilightforest:twilight_forest"
+            }
+        }
+    },
+    "result": {
+        "item": "dimtotem:dimensional_totem",
+        "data": {
+            "dimension": "minecraft:the_nether"
+        }
+    }
+}

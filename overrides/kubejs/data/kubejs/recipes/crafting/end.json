@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#TN",
+        "TET",
+        "NT#"
+    ],
+    "key": {
+        "#": {
+            "item": "blockus:nether_stars_block"
+        },
+        "T": {
+            "item": "dimtotem:dimensional_totem",
+            "data": {
+                "dimension": "minecraft:the_nether"
+            }
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "E": {
+            "item": "minecraft:end_crystal"
+        }
+    },
+    "result": {
+        "item": "dimtotem:dimensional_totem",
+        "data": {
+            "dimension": "minecraft:the_end"
+        }
+    }
+}

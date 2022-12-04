@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "#T#",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "dimtotem:dimensional_totem",
+            "data": {
+                "dimension": "minecraft:the_end"
+            }
+        },
+        "D": {
+            "item": "dragonloot:dragon_anvil"
+        },
+        "T": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:bedrock",
+        "count": 1
+    }
+}
