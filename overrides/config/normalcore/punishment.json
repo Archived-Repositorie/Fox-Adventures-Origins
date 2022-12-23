@@ -5,7 +5,8 @@
     "max": 7500,
     "spreadDistance": 5000,
     "setspawnpoint": true,
-    "afterdeath": true
+    "afterdeath": true,
+    "bedfixed": true
   },
   "lives": 1,
   "cancel": false,

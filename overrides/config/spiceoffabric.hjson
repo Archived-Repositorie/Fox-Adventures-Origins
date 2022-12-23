@@ -66,6 +66,6 @@
 		// When -1, you can gain a basically infinite amount of hearts.
 		// default: -1
 		// 	Must be inclusively between -1 and 200
-		max-health: -1
+		max-health: 20
 	}
 }
