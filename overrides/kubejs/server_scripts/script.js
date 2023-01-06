@@ -28,7 +28,7 @@ onEvent('recipes', event => {
 	event.remove({ output: 'medievalweapons:wooden_mace' })
 	event.remove({ output: 'medievalweapons:wooden_ninjato' })
 
-	event.shapeless('kubejs:handle', ['minecraft:stick', 'minecraft:leather', 'minecraft:string'])
+	event.shapeless('kubejs:handle', ['minecraft:stick', 'minecraft:leather', '#c:string'])
 
 	event.replaceInput([{ mod: 'medievalweapons' }, { output: '#mambience:is_tool' }, { output: '#mambience:is_sword' }, { output: '#c:swords' }, { output: '#bookshelf:swords' }, { output: '#c:pickaxes' }, { output: '#c:axes' }, { output: '#c:shovels' }, { output: '#c:hoes' }, { output: '#c:bows' }], 'minecraft:stick', 'kubejs:handle')
 })
