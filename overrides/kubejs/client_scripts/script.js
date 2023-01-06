@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('jei.hide_items', event => {
+onEvent('jei.hide.items', event => {
 	event.hide('minecraft:wooden_sword')
 	event.hide('minecraft:wooden_shovel')
 	event.hide('minecraft:wooden_pickaxe')
