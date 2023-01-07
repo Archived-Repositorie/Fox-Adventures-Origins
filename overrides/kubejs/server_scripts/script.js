@@ -39,6 +39,7 @@ onEvent('tags.items', event => {
 	event.add('c:axes', /.*axe.*/)
 	event.add('c:shovels', /.*shovel.*/)
 	event.add('c:hoes', /.*hoe.*/)
+	event.add('c:swords', "notreepunching:macuahuitl")
 
 	event.add('mambience:is_tool', '#c:pickaxes')
 	event.add('mambience:is_tool', '#c:axes')
