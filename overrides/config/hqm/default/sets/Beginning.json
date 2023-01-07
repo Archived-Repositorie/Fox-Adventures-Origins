@@ -32,6 +32,337 @@
       ],
       "rewardchoice": [],
       "commandrewards": []
+    },
+    {
+      "uuid": "829e151c-cd0f-4812-8016-df5a6cc1a952",
+      "name": {
+        "text": "Gravel of creation",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Get first gravel! But wait, when I break it, it doesn\u0027t drop anything? Silly level up your skill by clicking K and choosing mining skill! Also to make flint tools, use fragments of flint by breaking it by stone",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 108,
+      "icon": {
+        "id": "blockus:legacy_gravel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "blockus:legacy_gravel",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:flint",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e7cbd244-01f6-4f8a-a07a-23b0d2b3316a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "immersive_weathering:flower_crown",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8bc27d89-0146-4381-adf7-696461e0bf4f",
+      "name": {
+        "text": "Rocky Knife",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Create basic knife to get some stuff from grass",
+        "isTranslationKey": false
+      },
+      "x": 136,
+      "y": 109,
+      "icon": {
+        "id": "notreepunching:flint_knife",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_knife",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "notreepunching:plant_string",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "kubejs:handle",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "829e151c-cd0f-4812-8016-df5a6cc1a952"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "seasons:season_calendar",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2bc34c5b-4abc-4866-af9a-8be2549728ed",
+      "name": {
+        "text": "Uga Buga",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use it to attack mobs and animals",
+        "isTranslationKey": false
+      },
+      "x": 136,
+      "y": 141,
+      "icon": {
+        "id": "notreepunching:macuahuitl",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:macuahuitl",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "promenade:banana",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bc96f425-3c59-4158-b1a4-573b9140bb99",
+      "name": {
+        "text": "Rock by rock",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use flint pickaxe to mine stone",
+        "isTranslationKey": false
+      },
+      "x": 168,
+      "y": 71,
+      "icon": {
+        "id": "notreepunching:flint_pickaxe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_pickaxe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:dried_kelp",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2295d29f-0b8f-47ba-a35f-54337bb85310",
+      "name": {
+        "text": "Rocks in farmlands ",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use flint hoe to make farms",
+        "isTranslationKey": false
+      },
+      "x": 170,
+      "y": 109,
+      "icon": {
+        "id": "notreepunching:flint_hoe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_hoe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "cinderscapes:bramble_berries",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d65aad77-16a4-448c-8b8b-822345089b7e",
+      "name": {
+        "text": "Rock by dirt",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use flint shovel to mine dirt",
+        "isTranslationKey": false
+      },
+      "x": 169,
+      "y": 141,
+      "icon": {
+        "id": "notreepunching:flint_shovel",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_shovel",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "levelz:rare_candy",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6ec24116-fc77-4158-9327-bdb1c758ae2b",
+      "name": {
+        "text": "Flint the wood",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use flint axe to get some wood. Right click on logs to get planks, right click on planks to get sticks",
+        "isTranslationKey": false
+      },
+      "x": 137,
+      "y": 71,
+      "icon": {
+        "id": "notreepunching:flint_axe",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:flint_axe",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:cookie",
+          "Count": 6
+        },
+        {
+          "id": "notreepunching:plant_string",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
     }
   ],
   "reputationBar": []
