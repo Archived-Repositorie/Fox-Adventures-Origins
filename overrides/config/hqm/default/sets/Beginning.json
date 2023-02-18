@@ -2,38 +2,6 @@
   "name": "Beginning",
   "quests": [
     {
-      "uuid": "e7cbd244-01f6-4f8a-a07a-23b0d2b3316a",
-      "name": {
-        "text": "Welcome!",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Welcome to our modpack! This quest will start your journey",
-        "isTranslationKey": false
-      },
-      "x": 62,
-      "y": 74,
-      "icon": {
-        "id": "inmis:baby_backpack",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CHECKBOX"
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "inmis:baby_backpack",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "829e151c-cd0f-4812-8016-df5a6cc1a952",
       "name": {
         "text": "Gravel of creation",
@@ -78,6 +46,94 @@
           "id": "immersive_weathering:flower_crown",
           "Count": 1,
           "tag": "{Damage:0}"
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e7cbd244-01f6-4f8a-a07a-23b0d2b3316a",
+      "name": {
+        "text": "Welcome!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Welcome to our modpack! This quest will start your journey",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 74,
+      "icon": {
+        "id": "inmis:baby_backpack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CHECKBOX"
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "inmis:baby_backpack",
+          "Count": 1
+        },
+        {
+          "id": "simplehats:special",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2bc34c5b-4abc-4866-af9a-8be2549728ed",
+      "name": {
+        "text": "Uga Buga",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Use it to attack mobs and animals",
+        "isTranslationKey": false
+      },
+      "x": 136,
+      "y": 141,
+      "icon": {
+        "id": "notreepunching:macuahuitl",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "notreepunching:macuahuitl",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "promenade:banana",
+          "Count": 12
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -135,50 +191,57 @@
         {
           "id": "seasons:season_calendar",
           "Count": 1
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
-      "uuid": "2bc34c5b-4abc-4866-af9a-8be2549728ed",
+      "uuid": "af973bd1-c194-471d-b51a-e782c6d74fb2",
       "name": {
-        "text": "Uga Buga",
+        "text": "Stone age",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Use it to attack mobs and animals",
+        "text": "Go to caves and mine stone!",
         "isTranslationKey": false
       },
-      "x": 136,
-      "y": 141,
+      "x": 205,
+      "y": 71,
       "icon": {
-        "id": "notreepunching:macuahuitl",
-        "Count": 1,
-        "tag": "{Damage:0}"
+        "id": "minecraft:stone",
+        "Count": 1
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "items": [
+          "type": "BLOCK_BREAK",
+          "blocks": [
             {
               "item": {
-                "id": "notreepunching:macuahuitl",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
+                "id": "minecraft:stone",
+                "Count": 1
+              },
+              "required": 32
             }
           ]
         }
       ],
       "prerequisites": [
-        "8bc27d89-0146-4381-adf7-696461e0bf4f"
+        "bc96f425-3c59-4158-b1a4-573b9140bb99"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "promenade:banana",
-          "Count": 12
+          "id": "croptopia:pumpkin_spice_latte",
+          "Count": 1
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -223,6 +286,104 @@
         {
           "id": "minecraft:dried_kelp",
           "Count": 12
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "315fcf3f-5b81-4bfe-94a4-c028367f4395",
+      "name": {
+        "text": "Farmer",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Farmer\u0027s world!",
+        "isTranslationKey": false
+      },
+      "x": 205,
+      "y": 108,
+      "icon": {
+        "id": "croptopia:corn",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "croptopia:corn",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2295d29f-0b8f-47ba-a35f-54337bb85310"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "croptopia:popcorn",
+          "Count": 3
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9cb0292a-2b80-47a1-ae63-839389600d71",
+      "name": {
+        "text": "Wood all over ground",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Go to forest and mine all the wood!",
+        "isTranslationKey": false
+      },
+      "x": 153,
+      "y": 29,
+      "icon": {
+        "id": "croptopia:cherry",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "BLOCK_BREAK",
+          "blocks": [
+            {
+              "item": {
+                "id": "terrains:maple_log",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6ec24116-fc77-4158-9327-bdb1c758ae2b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "croptopia:cherry_pie",
+          "Count": 3
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -267,6 +428,10 @@
         {
           "id": "cinderscapes:bramble_berries",
           "Count": 3
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -311,6 +476,10 @@
         {
           "id": "levelz:rare_candy",
           "Count": 5
+        },
+        {
+          "id": "simplehats:hatbag_common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -358,6 +527,10 @@
         },
         {
           "id": "notreepunching:plant_string",
+          "Count": 1
+        },
+        {
+          "id": "simplehats:hatbag_common",
           "Count": 1
         }
       ],
